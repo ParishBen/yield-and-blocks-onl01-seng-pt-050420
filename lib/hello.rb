@@ -6,10 +6,9 @@ def hello_t(array)
     #if i.start_with?("T")
      # puts "Hi, #{i}"
     i += 1
-    
   end
 array
-
+end
 hello_t(array)
 # call your method here!
     #hello_t(["Tim", "Tom", "Jim"]) do |name|
