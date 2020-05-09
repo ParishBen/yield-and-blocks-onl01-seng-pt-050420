@@ -3,7 +3,10 @@ def hello_t(array)
  
   while i < array.length
   yield array[i]
+    if i.start_with?("T")
+      puts "Hi, #{i}"
     i += 1
+    
   end
 end
 
